@@ -6,6 +6,19 @@ $blue: #005
 $font-suisseIntl-regular: SuisseIntl-Regular, sans-serif //400
 $font-suisseIntl-medium: SuisseIntl-Medium, sans-serif //500
 
+.banner
+  &__details
+    &-date
+      &.noios-padding
+        padding-top: 4px
+        @media screen and (max-width: 1280px)
+          padding-top: 3px
+    &-time
+      &.noios-padding
+        padding-top: 4px
+        @media screen and (max-width: 1280px)
+          padding-top: 3px
+
 body
   overscroll-behavior: none
   img
